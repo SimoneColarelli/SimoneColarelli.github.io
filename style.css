@@ -48,7 +48,7 @@ body {
 }
 
 .written-part {
-    padding: calc(var(--img-height)*0.05) calc(var(--img-width)*0.1);
+    padding: calc(var(--img-height)*0.05) calc(var(--img-width)*0.105);
     max-width: var(--img-width);
     max-height: var(--img-height);
     display: flex;
@@ -58,6 +58,7 @@ body {
 
 .heading {
     letter-spacing: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .title {
@@ -101,7 +102,7 @@ body {
     color: white;
     border: none;
     border-radius: 1rem;
-    padding: 1.5rem 5rem;
+    padding: 1.6rem 5rem;
 }
 
 .add-to-chart-btn:hover {
